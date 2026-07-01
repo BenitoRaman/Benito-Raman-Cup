@@ -1,0 +1,289 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Het tornooi — Benito Raman Cup</title>
+  <meta name="description" content="Wedstrijdformule van de Benito Raman Cup: poulefase met 4 ploegen, gevolgd door knockout in de Champions League, Europa League en Conference League. Elke ploeg speelt minimaal 6 wedstrijden." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@400;500;600;700&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="assets/css/style.css" />
+</head>
+<body>
+
+  <!-- ============ NAV ============ -->
+  <header class="nav">
+    <div class="container nav-inner">
+      <a href="index.html" class="brand">
+        <svg class="crest" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+          <path d="M20 2l15 6v9c0 9.5-6.2 17.8-15 21C11.2 34.8 5 26.5 5 17V8l15-6z" fill="url(#cg)" stroke="#f5c542" stroke-width="1.2"/>
+          <circle cx="20" cy="18" r="6.5" fill="#07112a"/>
+          <path d="M20 12.5l5 3.6-1.9 5.9h-6.2L15 16.1 20 12.5z" fill="#fff"/>
+          <defs><linearGradient id="cg" x1="5" y1="2" x2="35" y2="38" gradientUnits="userSpaceOnUse"><stop stop-color="#2f6bff"/><stop offset="1" stop-color="#16b6e6"/></linearGradient></defs>
+        </svg>
+        <b>BENITO RAMAN <span>CUP</span></b>
+      </a>
+      <nav class="nav-links" id="navLinks">
+        <a href="index.html">Home</a>
+        <a href="tornooi.html" class="active">Tornooi</a>
+        <a href="ploegen.html">Ploegen</a>
+        <a href="sponsors.html">Sponsors</a>
+        <a href="faq.html">FAQ</a>
+        <a href="contact.html">Contact</a>
+        <a href="aanmelden.html" class="btn btn-primary" style="padding:10px 22px;">Ploeg aanmelden</a>
+      </nav>
+      <button class="nav-toggle" id="navToggle" aria-label="Menu">
+        <svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="3" y1="6" x2="21" y2="6"/><line x1="3" y1="12" x2="21" y2="12"/><line x1="3" y1="18" x2="21" y2="18"/></svg>
+      </button>
+    </div>
+  </header>
+
+  <!-- ============ PAGE HERO ============ -->
+  <section class="page-hero">
+    <div class="hero-glow"></div>
+    <div class="container page-hero-inner">
+      <span class="eyebrow">Wedstrijdformule</span>
+      <h1>Zo verloopt het tornooi</h1>
+      <p>Poulefase, drie Europese bekers en een knockout waarin élke ploeg minimaal zes wedstrijden speelt.</p>
+    </div>
+  </section>
+
+  <!-- ============ U8 / U9 ============ -->
+  <section>
+    <div class="container">
+      <div class="section-head center reveal">
+        <span class="eyebrow" style="justify-content:center;">Categorieën</span>
+        <h2>U8 of U9?</h2>
+        <p>Spelers, speelvorm en speeltijd verschillen per categorie. Kies hieronder.</p>
+      </div>
+
+      <div class="compare reveal">
+        <div class="toggle-tabs">
+          <button class="toggle-btn active" data-target="cat-u8">U8</button>
+          <button class="toggle-btn" data-target="cat-u9">U9</button>
+        </div>
+
+        <div class="compare-panel active" id="cat-u8">
+          <div class="compare-grid">
+            <div class="compare-item"><div class="big">5v5</div><div class="lbl">Speelvorm</div></div>
+            <div class="compare-item"><div class="big">2&times;12'</div><div class="lbl">Speeltijd</div></div>
+          </div>
+        </div>
+
+        <div class="compare-panel" id="cat-u9">
+          <div class="compare-grid">
+            <div class="compare-item"><div class="big">8v8</div><div class="lbl">Speelvorm</div></div>
+            <div class="compare-item"><div class="big">2&times;15'</div><div class="lbl">Speeltijd</div></div>
+          </div>
+        </div>
+
+        <p class="compare-hint">Speeltijden zijn indicatief en worden per editie bevestigd.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ KERNCIJFERS ============ -->
+  <section class="bg-alt">
+    <div class="container">
+      <div class="stat-row reveal">
+        <div class="stat-tile"><span class="n">4</span><span class="t">Ploegen<br>per poule</span></div>
+        <div class="stat-tile"><span class="n">3</span><span class="t">Poule-<br>wedstrijden</span></div>
+        <div class="stat-tile"><span class="n">6+</span><span class="t">Wedstrijden<br>per ploeg</span></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ ROUTING FLOW ============ -->
+  <section>
+    <div class="container">
+      <div class="section-head center reveal">
+        <span class="eyebrow" style="justify-content:center;">De weg naar de finale</span>
+        <h2>Van poule naar <span class="text-gold">trofee</span></h2>
+        <p>Na de poulefase wordt elke ploeg ingedeeld in een van de drie Europese bekers. Verlies je je kwartfinale? Dan krijg je een herkansing in de onderliggende competitie — niemand is na één nederlaag uitgespeeld.</p>
+      </div>
+
+      <div class="flow reveal">
+        <div class="flow-node">
+          <div class="ttl">Poulefase</div>
+          <small>4 ploegen · 3 wedstrijden · eindstand bepaalt de route</small>
+        </div>
+        <div class="flow-arrow"></div>
+        <div class="flow-split">
+          <div class="flow-branch">
+            <div class="flow-node cl">
+              <div class="badge-line">Champions League</div>
+              <div class="ttl">Plaats 1 &amp; 2</div>
+              <small>De top van elke poule strijdt om de hoofdprijs</small>
+            </div>
+          </div>
+          <div class="flow-branch">
+            <div class="flow-node el">
+              <div class="badge-line">Europa League</div>
+              <div class="ttl">Plaats 3 &amp; 4</div>
+              <small>De onderste twee strijden om de tweede trofee</small>
+            </div>
+          </div>
+        </div>
+        <div class="flow-arrow"></div>
+        <div class="flow-node cf">
+          <div class="badge-line">Conference League</div>
+          <div class="ttl">Verliezers van de kwartfinales</div>
+          <small>Een herkansing voor wie de kwartfinale van CL of EL verliest</small>
+        </div>
+        <p class="flow-merge-note">De winnaar van elke tornooidag (1 en 15 mei) schuift bovendien door als deelnemer naar de volgende editie — tot de finaledag op 29 mei.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ BRACKETS ============ -->
+  <section>
+    <div class="container">
+      <div class="section-head reveal">
+        <span class="eyebrow">De bracket</span>
+        <h2>Knockout per competitie</h2>
+        <p>Elke beker speelt z'n eigen knockout: kwartfinale, halve finale en finale. Onderstaand schema toont de structuur — de exacte affiches volgen na de loting.</p>
+      </div>
+
+      <!-- Champions League -->
+      <div class="bracket-block reveal">
+        <div class="bracket-title cl"><span class="dot"></span><h3>Champions League</h3></div>
+        <div class="bracket-wrap">
+          <div class="bracket">
+            <div class="round">
+              <div class="round-label">Kwartfinales</div>
+              <div class="match"><div class="slot">Winnaar Poule A <span class="seed">1A</span></div><div class="slot">Runner-up Poule B <span class="seed">2B</span></div></div>
+              <div class="match"><div class="slot">Winnaar Poule C <span class="seed">1C</span></div><div class="slot">Runner-up Poule D <span class="seed">2D</span></div></div>
+              <div class="match"><div class="slot">Winnaar Poule B <span class="seed">1B</span></div><div class="slot">Runner-up Poule A <span class="seed">2A</span></div></div>
+              <div class="match"><div class="slot">Winnaar Poule D <span class="seed">1D</span></div><div class="slot">Runner-up Poule C <span class="seed">2C</span></div></div>
+            </div>
+            <div class="round">
+              <div class="round-label">Halve finales</div>
+              <div class="match"><div class="slot">Winnaar KF 1 <span class="seed">—</span></div><div class="slot">Winnaar KF 2 <span class="seed">—</span></div></div>
+              <div class="match"><div class="slot">Winnaar KF 3 <span class="seed">—</span></div><div class="slot">Winnaar KF 4 <span class="seed">—</span></div></div>
+            </div>
+            <div class="round">
+              <div class="round-label">Finale</div>
+              <div class="match final"><div class="slot">Winnaar HF 1 <span class="seed">🏆</span></div><div class="slot">Winnaar HF 2 <span class="seed">🏆</span></div></div>
+            </div>
+          </div>
+        </div>
+        <p class="bracket-note">Verliezers van de kwartfinales stromen door naar de Conference League.</p>
+      </div>
+
+      <!-- Europa League -->
+      <div class="bracket-block reveal">
+        <div class="bracket-title el"><span class="dot"></span><h3>Europa League</h3></div>
+        <div class="bracket-wrap">
+          <div class="bracket">
+            <div class="round">
+              <div class="round-label">Kwartfinales</div>
+              <div class="match"><div class="slot">Nr. 3 Poule A <span class="seed">3A</span></div><div class="slot">Nr. 4 Poule B <span class="seed">4B</span></div></div>
+              <div class="match"><div class="slot">Nr. 3 Poule C <span class="seed">3C</span></div><div class="slot">Nr. 4 Poule D <span class="seed">4D</span></div></div>
+              <div class="match"><div class="slot">Nr. 3 Poule B <span class="seed">3B</span></div><div class="slot">Nr. 4 Poule A <span class="seed">4A</span></div></div>
+              <div class="match"><div class="slot">Nr. 3 Poule D <span class="seed">3D</span></div><div class="slot">Nr. 4 Poule C <span class="seed">4C</span></div></div>
+            </div>
+            <div class="round">
+              <div class="round-label">Halve finales</div>
+              <div class="match"><div class="slot">Winnaar KF 1 <span class="seed">—</span></div><div class="slot">Winnaar KF 2 <span class="seed">—</span></div></div>
+              <div class="match"><div class="slot">Winnaar KF 3 <span class="seed">—</span></div><div class="slot">Winnaar KF 4 <span class="seed">—</span></div></div>
+            </div>
+            <div class="round">
+              <div class="round-label">Finale</div>
+              <div class="match final"><div class="slot">Winnaar HF 1 <span class="seed">🏆</span></div><div class="slot">Winnaar HF 2 <span class="seed">🏆</span></div></div>
+            </div>
+          </div>
+        </div>
+        <p class="bracket-note">Verliezers van de kwartfinales stromen door naar de Conference League.</p>
+      </div>
+
+      <!-- Conference League -->
+      <div class="bracket-block reveal">
+        <div class="bracket-title cf"><span class="dot"></span><h3>Conference League</h3></div>
+        <div class="bracket-wrap">
+          <div class="bracket">
+            <div class="round">
+              <div class="round-label">Kwartfinales</div>
+              <div class="match"><div class="slot">Verliezer CL-KF 1 <span class="seed">—</span></div><div class="slot">Verliezer EL-KF 1 <span class="seed">—</span></div></div>
+              <div class="match"><div class="slot">Verliezer CL-KF 2 <span class="seed">—</span></div><div class="slot">Verliezer EL-KF 2 <span class="seed">—</span></div></div>
+              <div class="match"><div class="slot">Verliezer CL-KF 3 <span class="seed">—</span></div><div class="slot">Verliezer EL-KF 3 <span class="seed">—</span></div></div>
+              <div class="match"><div class="slot">Verliezer CL-KF 4 <span class="seed">—</span></div><div class="slot">Verliezer EL-KF 4 <span class="seed">—</span></div></div>
+            </div>
+            <div class="round">
+              <div class="round-label">Halve finales</div>
+              <div class="match"><div class="slot">Winnaar KF 1 <span class="seed">—</span></div><div class="slot">Winnaar KF 2 <span class="seed">—</span></div></div>
+              <div class="match"><div class="slot">Winnaar KF 3 <span class="seed">—</span></div><div class="slot">Winnaar KF 4 <span class="seed">—</span></div></div>
+            </div>
+            <div class="round">
+              <div class="round-label">Finale</div>
+              <div class="match final"><div class="slot">Winnaar HF 1 <span class="seed">🏆</span></div><div class="slot">Winnaar HF 2 <span class="seed">🏆</span></div></div>
+            </div>
+          </div>
+        </div>
+        <p class="bracket-note">Het voorbeeld toont 4 poules (16 ploegen). De exacte opzet wordt afgestemd op het aantal ingeschreven ploegen per tornooidag.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ DAGINDELING ============ -->
+  <section class="bg-alt">
+    <div class="container">
+      <div class="section-head reveal">
+        <span class="eyebrow">Dagindeling</span>
+        <h2>Een tornooidag in vogelvlucht</h2>
+        <p>Een indicatief verloop van een tornooidag. Definitieve uren volgen per editie zodra de inschrijvingen rond zijn.</p>
+      </div>
+      <div class="schedule-grid reveal">
+        <div class="schedule-card"><div class="time">09:00</div><div class="label">Onthaal &amp; opwarming</div></div>
+        <div class="schedule-card"><div class="time">09:30</div><div class="label">Start poulefase</div></div>
+        <div class="schedule-card"><div class="time">12:30</div><div class="label">Kwartfinales (CL / EL)</div></div>
+        <div class="schedule-card"><div class="time">14:00</div><div class="label">Conference League &amp; halve finales</div></div>
+        <div class="schedule-card"><div class="time">15:30</div><div class="label">Finales</div></div>
+        <div class="schedule-card"><div class="time">16:30</div><div class="label">Prijsuitreiking</div></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ CTA ============ -->
+  <section>
+    <div class="container">
+      <div class="cta-band reveal">
+        <h2>Speel je mee?</h2>
+        <p>Meld je ploeg aan voor de Benito Raman Cup. Na goedkeuring door het bestuur ontvang je alle praktische info.</p>
+        <a href="aanmelden.html" class="btn btn-gold">Ploeg aanmelden</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ FOOTER ============ -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div>
+          <a href="index.html" class="brand" style="margin-bottom:14px;"><b>BENITO RAMAN <span>CUP</span></b></a>
+          <p class="muted" style="max-width:320px;margin-top:10px;">Internationaal U8 &amp; U9 jeugdvoetbaltornooi in het Daknamstadion, Lokeren. 1, 15 &amp; 29 mei.</p>
+        </div>
+        <div>
+          <h4>Tornooi</h4>
+          <a href="tornooi.html">Wedstrijdformule</a>
+          <a href="ploegen.html">Ploegen</a>
+          <a href="aanmelden.html">Aanmelden</a>
+          <a href="faq.html">FAQ</a>
+        </div>
+        <div>
+          <h4>Contact</h4>
+          <a href="contact.html">Contactformulier</a>
+          <a href="sponsors.html">Sponsor worden</a>
+          <a href="https://www.google.com/maps/search/?api=1&query=Daknamstraat+91+9160+Lokeren" target="_blank" rel="noopener">Daknamstraat 91, Lokeren</a>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <span>© <span id="year"></span> Benito Raman Cup. Alle rechten voorbehouden.</span>
+        <span>Gemaakt met ⚽ voor het jeugdvoetbal</span>
+      </div>
+    </div>
+  </footer>
+
+  <script src="assets/js/main.js"></script>
+</body>
+</html>
