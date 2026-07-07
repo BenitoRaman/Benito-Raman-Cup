@@ -15,11 +15,11 @@
   <header class="nav">
     <div class="container nav-inner">
       <a href="index.html" class="brand">
-        <svg class="crest" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
-          <path d="M20 2l15 6v9c0 9.5-6.2 17.8-15 21C11.2 34.8 5 26.5 5 17V8l15-6z" fill="url(#cg)" stroke="#f5c542" stroke-width="1.2"/>
-          <circle cx="20" cy="18" r="6.5" fill="#07112a"/>
-          <path d="M20 12.5l5 3.6-1.9 5.9h-6.2L15 16.1 20 12.5z" fill="#fff"/>
-          <defs><linearGradient id="cg" x1="5" y1="2" x2="35" y2="38" gradientUnits="userSpaceOnUse"><stop stop-color="#2f6bff"/><stop offset="1" stop-color="#16b6e6"/></linearGradient></defs>
+        <img class="crest" src="assets/img/Logo_BRC.jpg" alt="Benito Raman Cup logo" onerror="this.style.display='none';this.nextElementSibling.style.display='block'">
+        <svg class="crest" style="display:none" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+          <path d="M20 2l15 6v9c0 9.5-6.2 17.8-15 21C11.2 34.8 5 26.5 5 17V8l15-6z" fill="#0d0f0b"/>
+          <path d="M13 13l2.4-3.4 4.6 2.8 4.6-2.8L27 13z" fill="#c6ff3b"/>
+          <text x="20" y="27.5" text-anchor="middle" font-family="Oswald, sans-serif" font-weight="700" font-size="9" letter-spacing="0.5" fill="#c6ff3b">BRC</text>
         </svg>
         <b>BENITO RAMAN <span>CUP</span></b>
       </a>
@@ -55,12 +55,76 @@
         <p>Deze clubs bevestigden hun deelname aan een of meerdere tornooidagen.</p>
       </div>
       <div class="club-grid">
-        <div class="club-card reveal"><div class="crest-badge">AND</div><div><div class="c-name">RSC Anderlecht</div><div class="c-meta">België · Brussel</div></div></div>
-        <div class="club-card reveal"><div class="crest-badge">STA</div><div><div class="c-name">Standard Luik</div><div class="c-meta">België · Luik</div></div></div>
-        <div class="club-card reveal"><div class="crest-badge">S04</div><div><div class="c-name">Schalke 04</div><div class="c-meta">Duitsland · Gelsenkirchen</div></div></div>
-        <div class="club-card reveal"><div class="crest-badge">GNT</div><div><div class="c-name">KAA Gent</div><div class="c-meta">België · Gent</div></div></div>
-        <div class="club-card reveal"><div class="crest-badge">MEC</div><div><div class="c-name">KV Mechelen</div><div class="c-meta">België · Mechelen</div></div></div>
-        <div class="club-card tbd reveal"><div class="crest-badge">+</div><div><div class="c-name">Jouw ploeg?</div><div class="c-meta">Meld je aan via het formulier</div></div></div>
+
+        <div class="club-card reveal">
+          <div class="club-logo">
+            <img src="assets/img/clubs/Anderlecht-Logo.png" alt="RSC Anderlecht logo" onerror="this.style.display='none';this.nextElementSibling.style.display='grid'">
+            <span class="crest-badge" style="display:none">AND</span>
+          </div>
+          <div class="club-body">
+            <div class="c-name">RSC Anderlecht</div>
+            <div class="c-meta">België · Brussel</div>
+            <p class="club-hist">Recordkampioen van België, opgericht in 1908. Wereldbekend om zijn jeugdopleiding in Neerpede.</p>
+          </div>
+        </div>
+
+        <div class="club-card reveal">
+          <div class="club-logo">
+            <img src="assets/img/clubs/Logo_Standard.png" alt="Standard Luik logo" onerror="this.style.display='none';this.nextElementSibling.style.display='grid'">
+            <span class="crest-badge" style="display:none">STA</span>
+          </div>
+          <div class="club-body">
+            <div class="c-name">Standard Luik</div>
+            <div class="c-meta">België · Luik</div>
+            <p class="club-hist">Luikse grootmacht, opgericht in 1898, met een gerenommeerde jeugdacademie en veel doorstroming.</p>
+          </div>
+        </div>
+
+        <div class="club-card reveal">
+          <div class="club-logo">
+            <img src="assets/img/clubs/FC_Schalke_04_Logo.svg.webp" alt="Schalke 04 logo" onerror="this.style.display='none';this.nextElementSibling.style.display='grid'">
+            <span class="crest-badge" style="display:none">S04</span>
+          </div>
+          <div class="club-body">
+            <div class="c-name">Schalke 04</div>
+            <div class="c-meta">Duitsland · Gelsenkirchen</div>
+            <p class="club-hist">Duitse traditieclub uit 1904, bekend om zijn sterke jeugdwerking, de 'Knappenschmiede'.</p>
+          </div>
+        </div>
+
+        <div class="club-card reveal">
+          <div class="club-logo">
+            <img src="assets/img/clubs/logo_Gent.png" alt="KAA Gent logo" onerror="this.style.display='none';this.nextElementSibling.style.display='grid'">
+            <span class="crest-badge" style="display:none">GNT</span>
+          </div>
+          <div class="club-body">
+            <div class="c-name">KAA Gent</div>
+            <div class="c-meta">België · Gent</div>
+            <p class="club-hist">Oost-Vlaamse eersteklasser, opgericht in 1900 en landskampioen in 2015.</p>
+          </div>
+        </div>
+
+        <div class="club-card reveal">
+          <div class="club-logo">
+            <img src="assets/img/clubs/Logo_mechelen.webp" alt="KV Mechelen logo" onerror="this.style.display='none';this.nextElementSibling.style.display='grid'">
+            <span class="crest-badge" style="display:none">MEC</span>
+          </div>
+          <div class="club-body">
+            <div class="c-name">KV Mechelen</div>
+            <div class="c-meta">België · Mechelen</div>
+            <p class="club-hist">Historische club uit Mechelen, opgericht in 1904 en Europacupwinnaar in 1988.</p>
+          </div>
+        </div>
+
+        <div class="club-card tbd reveal">
+          <div class="club-logo"><span class="crest-badge">+</span></div>
+          <div class="club-body">
+            <div class="c-name">Jouw ploeg?</div>
+            <div class="c-meta">Meld je aan via het formulier</div>
+            <p class="club-hist">Bevestigde deelnemers verschijnen hier met hun officiële logo en een korte introductie.</p>
+          </div>
+        </div>
+
       </div>
     </div>
   </section>

@@ -15,11 +15,11 @@
   <header class="nav">
     <div class="container nav-inner">
       <a href="index.html" class="brand">
-        <svg class="crest" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
-          <path d="M20 2l15 6v9c0 9.5-6.2 17.8-15 21C11.2 34.8 5 26.5 5 17V8l15-6z" fill="url(#cg)" stroke="#f5c542" stroke-width="1.2"/>
-          <circle cx="20" cy="18" r="6.5" fill="#07112a"/>
-          <path d="M20 12.5l5 3.6-1.9 5.9h-6.2L15 16.1 20 12.5z" fill="#fff"/>
-          <defs><linearGradient id="cg" x1="5" y1="2" x2="35" y2="38" gradientUnits="userSpaceOnUse"><stop stop-color="#2f6bff"/><stop offset="1" stop-color="#16b6e6"/></linearGradient></defs>
+        <img class="crest" src="assets/img/Logo_BRC.jpg" alt="Benito Raman Cup logo" onerror="this.style.display='none';this.nextElementSibling.style.display='block'">
+        <svg class="crest" style="display:none" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+          <path d="M20 2l15 6v9c0 9.5-6.2 17.8-15 21C11.2 34.8 5 26.5 5 17V8l15-6z" fill="#0d0f0b"/>
+          <path d="M13 13l2.4-3.4 4.6 2.8 4.6-2.8L27 13z" fill="#c6ff3b"/>
+          <text x="20" y="27.5" text-anchor="middle" font-family="Oswald, sans-serif" font-weight="700" font-size="9" letter-spacing="0.5" fill="#c6ff3b">BRC</text>
         </svg>
         <b>BENITO RAMAN <span>CUP</span></b>
       </a>
@@ -91,8 +91,8 @@
               <div class="choice-row">
                 <label class="choice"><input type="checkbox" name="Editie 1 mei" value="1 mei" /><span>1 mei</span></label>
                 <label class="choice"><input type="checkbox" name="Editie 15 mei" value="15 mei" /><span>15 mei</span></label>
-                <label class="choice"><input type="checkbox" name="Editie 29 mei" value="29 mei" /><span>29 mei</span></label>
               </div>
+              <span class="form-note" style="margin-top:4px;">Aanmelden kan voor 1 en 15 mei. De finaledag op 29 mei wordt door de organisatie zelf ingevuld.</span>
             </div>
 
             <div class="field">
@@ -100,8 +100,8 @@
               <input type="number" id="teams" name="Aantal ploegen" min="1" value="1" />
             </div>
             <div class="field">
-              <label for="level">Niveau / divisie</label>
-              <input type="text" id="level" name="Niveau" placeholder="bv. gewestelijk, provinciaal, academie" />
+              <label for="level">Club / niveau</label>
+              <input type="text" id="level" name="Niveau" placeholder="bv. provinciaal, nationaal" />
             </div>
 
             <div class="field full">
@@ -112,7 +112,7 @@
 
           <div class="form-actions">
             <button type="submit" class="btn btn-primary">Aanmelding versturen</button>
-            <span class="form-note">Velden met <span style="color:var(--accent);">*</span> zijn verplicht.</span>
+            <span class="form-note">Velden met <span style="color:var(--gold);">*</span> zijn verplicht.</span>
           </div>
           <div class="form-feedback" role="status" aria-live="polite"></div>
         </form>
@@ -123,6 +123,10 @@
           <h3>Hoe verloopt het?</h3>
           <p style="margin-bottom:14px;">1. Je vult dit formulier in.<br/>2. Het bestuur beoordeelt je aanvraag.<br/>3. Je ontvangt een bevestiging met alle praktische info.</p>
           <p class="form-note">Een aanmelding is pas definitief na schriftelijke goedkeuring door het bestuur.</p>
+        </div>
+        <div class="info-card">
+          <h3>Toelatingsvoorwaarden</h3>
+          <p class="form-note">Deelname staat open voor ploegen van erkende clubs. Gewestelijke ploegen en voetbalacademies worden niet toegelaten.</p>
         </div>
         <div class="info-card">
           <h3>Liever rechtstreeks?</h3>

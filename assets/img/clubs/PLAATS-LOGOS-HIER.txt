@@ -1,0 +1,15 @@
+Plaats hier de officiële clublogo's (PNG met transparante achtergrond werkt het best).
+
+Gebruik exact deze bestandsnamen, dan verschijnen ze automatisch op de deelnemerspagina:
+
+  anderlecht.png   -> RSC Anderlecht
+  standard.png     -> Standard Luik
+  schalke.png      -> Schalke 04
+  gent.png         -> KAA Gent
+  mechelen.png     -> KV Mechelen
+
+Zolang een logobestand ontbreekt, toont de site automatisch een tijdelijk
+tekstembleem (bv. "AND") in plaats van het logo.
+
+Nieuwe deelnemer? Voeg een logo toe met een korte, herkenbare bestandsnaam
+en geef die door, dan koppel ik de kaart op de deelnemerspagina.

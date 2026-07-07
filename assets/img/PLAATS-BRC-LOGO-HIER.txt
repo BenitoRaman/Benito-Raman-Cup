@@ -1,0 +1,8 @@
+Plaats hier het officiële BRC-logo (het ronde embleem met de kroon en "BRC").
+
+Bestandsnaam exact:  brc-logo.png   (PNG, bij voorkeur vierkant of rond)
+
+Dit logo verschijnt automatisch in de navigatiebalk op elke pagina.
+Zolang het bestand ontbreekt, toont de site een tijdelijk BRC-embleem (SVG).
+
+De clublogo's horen in de submap 'clubs/' — zie het tekstbestand daar.
